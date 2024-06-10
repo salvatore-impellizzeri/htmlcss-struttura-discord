@@ -61,6 +61,7 @@ nav div{
     width: 60%;
     height: 500px;
     background-color: plum;
+    border: 1px dashed black;
 }
 
 /* Section 2 */
@@ -68,15 +69,14 @@ nav div{
 .flex-container{
     margin: auto;
     width: 80%;
-    min-height: 400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: yellowgreen;
 }
 
 .blue-box{
     background-color: #1e90ff;
+    width: 60%;
+    height: 600px;
+    border: 1px dashed black;
 }
 
 .pink-box{
@@ -104,7 +104,7 @@ nav div{
 /* Section 6 */
 
 .container-black{
-    background-color: rgb(39, 39, 39);
+    background-color: #23272a;
 }
 
 .margin{
@@ -116,14 +116,14 @@ nav div{
     height: 600px;
     width: 30%;
     border: 1px dashed black;
-    background-color: rosybrown;
+    background-color: #f08080;
 }
 
 #box-2{
     flex-grow: 1;
     border: 1px dashed black;
     display: flex;
-    background-color: darkcyan;
+    background-color: #20b2aa;
 }
 
 #box-2 > div{
@@ -152,7 +152,8 @@ footer{
 }
 
 .text-footer{
-    background-color: rosybrown;
+    background-color: #ffb6c1;
     border: 1px dashed black;
-
+    padding: 5px;
+    font-size: 15px;
 }
