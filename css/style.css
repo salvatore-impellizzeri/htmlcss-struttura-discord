@@ -134,7 +134,7 @@ nav div{
 /* Footer */
 
 footer{
-    border-top: 1px solid lightgrey;
+    border-top: 2px solid lightgrey;
     min-height: 100px;
     border-bottom: 1px solid lightgrey;
     display: flex;
