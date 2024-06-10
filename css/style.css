@@ -61,6 +61,7 @@ nav div{
     width: 60%;
     height: 500px;
     background-color: plum;
+    border: 1px dashed black;
 }
 
 /* Section 2 */
@@ -68,17 +69,26 @@ nav div{
 .flex-container{
     margin: auto;
     width: 80%;
-    min-height: 400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: yellowgreen;
 }
 
 .blue-box{
     background-color: #1e90ff;
+    width: 60%;
+    height: 600px;
+    border: 1px dashed black;
 }
 
 .pink-box{
     background-color: #ffc0cb;
+    flex-grow: 1;
+    border: 1px dashed black;
 }
+
+/* Section 3 */
+
+.container-sec-3{
+    background-color: lightgrey;
+}
+
+/* Section 4 */
