@@ -128,7 +128,7 @@ nav div{
 
 #box-2 > div{
     border: 1px dashed white;
-    width: 25%;
+    flex-grow: 1;
 }
 
 /* Footer */
