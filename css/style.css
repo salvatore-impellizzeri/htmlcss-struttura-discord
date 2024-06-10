@@ -91,6 +91,11 @@ nav div{
     background-color: lightgrey;
 }
 
+.container-grey > .flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 /* Section 5 */
 
 #green-box{
