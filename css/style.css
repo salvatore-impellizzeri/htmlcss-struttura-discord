@@ -5,3 +5,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+
+header{
+    background-color: #add8e6;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 80%;
+    background-color: #daa520;
+    display: flex;
+}
+
+nav div{
+    border: 1px dashed black;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.nav-lat{
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-center{
+    text-align: center;
+    width: 50%;
+}
+
+.nav-right{
+    text-align: right;
+}
+
+/* Main */
+
+.container{
+    min-height: 400px;
+    padding: 50px;
+}
+
+/* Section 1 */
+
+.container-sec-1{
+    background-color: blue;
+}
+
+.box{
+    margin: auto;
+    width: 60%;
+    height: 500px;
+    background-color: plum;
+}
+
+/* Section 2 */
+
+.flex-container{
+    margin: auto;
+    width: 80%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+}
+
+.blue-box{
+    background-color: #1e90ff;
+}
+
+.pink-box{
+    background-color: #ffc0cb;
+}
